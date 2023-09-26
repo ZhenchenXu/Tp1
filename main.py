@@ -3,7 +3,7 @@
 # Fait par Zhenchen Xu
 
 #fonction
-#ici on a mis un argument dans le fonction pour qu'une variable puisse être importé de hors de la fonction
+
+#Ce fonction permet de counter le nombre de mot, le input doi être string, le output va être integer
 def count_word(word):
-    #ceci permet le variable importé et déterminer le nombre de mot et le return
     return word.count(' ') +1
